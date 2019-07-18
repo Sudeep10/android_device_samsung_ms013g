@@ -65,4 +65,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # Inherit from qcom-common
-$(call inherit-product, device/samsung/msm8226-common/msm8226.mk)
+$(call inherit-product, device/samsung/msm8226-common_ms013g/msm8226.mk)
